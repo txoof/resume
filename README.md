@@ -4,6 +4,12 @@ Featured Git Repositories
 
 ## Work Related Projects
 
+### [PowerSchool PowerQuery](https://github.com/txoof/PowerQuery)
+
+PowerSchool Student Information System (SIS) PowerQuery PL/SQL plugins for integrating course, teacher, student and parent data into D2L/Brightspace Learning Management System (LMS). There is no off-the-shelf integration between these products. A customized solution is required to maintain accurate synchronization of these two systems. This synchronization occurs regularly and ensures that staff, parents and students are connected to the appropriate classes and any changes to student schedules such as a schedule or class change are managed.
+
+The queries are written in a combination of Oracle SQL and managed through XML documents. Once packaged and installed on the SIS server, the plugin can be accessed through automation processes and set to synchronize comma separated value (CSV) data to the D2l/Brightspace instance in the cloud. 
+
 ### [gdrive_audit](https://github.com/txoof/gdrive_audit)
 
 Audit ownership of all files in a Google Drive folder.
@@ -59,7 +65,25 @@ pyPDF_split pairs nicely with the insertFiles and create_folders scripts.
 
 ## Hobby Projects
 
-|             |                 |              |
-|:-----------:|-----------------|--------------|
-|    <img src=https://github.com/txoof/PaperPi/blob/main/documentation/images/paperpiV3.gif alt="PaperPi" width=400 /></br>[PaperPi](https://github.com/txoof/PaperPi)   | Useless Machine | Audio Sensor |
+ ### [PaperPi](https://github.com/txoof/PaperPi#paperpi-v3-)
+
+PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud colors, no busy animations, just a lovely selection of the information you want without buzz and distraction. PaperPi rotates through your choice of plugin screens at the pace you choose.
+
+![PaperPi Video](https://github.com/txoof/PaperPi/blob/main/documentation/images/paperpiV3.gif)
+
+ ### [Audio Sensor irBlaster](https://github.com/txoof/audioSensor)
+
+ Let's face it: nobody knows how to operate your stereo receiver. Your kids, husband, sister-in-law all just want to start music playing and have sound come out of the speakers. It should just work*, not be an exercise in frustrated button mashing.
+
+![irBlaster Image](https://github.com/txoof/audioSensor/blob/master/irBlaster.jpg)
+
+It's a mystery which remote turns on the stereo. It's an even bigger mystery which button switches it so Spotify or the CD player plays. The irBlaster helps solve this problem by listening to two channels such as a CD Player and Media PC with Spotify, Movies, etc.
+
+The irBlaster listens to the line-level audio over RCA cables. When it detects audio traffic on one of the channels, it sends a POWER ON Infrared (IR) code to the receiver, waits a few seconds for it to power up and then sends the IR code for the matching input. When there's no more audio traffic, it sends the POWER OFF IR code to the receiver.
+
+### 
+
+
+ 
+ <img src=https://github.com/txoof/audioSensor/blob/master/irBlaster.jpg alt="Audio Sensor" width=400 /></br>Audio Sensor
 | NPR2Podcast | epdlib          | querylms     |
