@@ -32,9 +32,9 @@ Python3 script for signing, packaging, notarizing and stapling Apple command lin
 
 This script is specifically targeted at codesigning, notarizing, creating .pkg files and stapling the notarization onto commandline tools written and compiled outside of Apple Xcode. This was created specifically for notarizing and signing python tools created with PyInstaller.
 
-As of MacOS Catalina, all distributed binaries must be signed and notarized using an apple developer account. This account costs $99 per year. Theives.
+As of MacOS Catalina, all distributed binaries must be signed and notarized using an apple developer account. This account costs $99 per year. .
 
-Apple's documentation for this process is ABSOLUTELY terrible. For a guide to doing this manually see Signing_and_Notarizing_HOWTO
+Apple's documentation for this process is ABSOLUTELY terrible. For a guide to doing this manually see [Signing_and_Notarizing_HOWTO](https://github.com/txoof/codesign/blob/main/Signing_and_Notarizing_HOWTO.md)
 
 ### [IMSCC_scripts](https://github.com/txoof/IMSCC_scripts)
 
@@ -71,6 +71,14 @@ PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud col
 
 ![PaperPi Video](https://github.com/txoof/PaperPi/blob/main/documentation/images/paperpiV3.gif)
 
+### [ItsyBitsy Useless Machine](https://github.com/txoof/Useless_Machine)
+
+***Absolutely Useless, Completely Necessary**
+
+It's pretty useless. It defies logic and your will. It's a machine that has exactly one purpose, to turn its self off. For something so useful, why is it so entertaining?
+
+![Usless Machine Animation](https://github.com/txoof/Useless_Machine/blob/main/Useless_Machine.gif)
+
  ### [Audio Sensor irBlaster](https://github.com/txoof/audioSensor)
 
  Let's face it: nobody knows how to operate your stereo receiver. Your kids, husband, sister-in-law all just want to start music playing and have sound come out of the speakers. It should just work*, not be an exercise in frustrated button mashing.
@@ -80,6 +88,14 @@ PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud col
 It's a mystery which remote turns on the stereo. It's an even bigger mystery which button switches it so Spotify or the CD player plays. The irBlaster helps solve this problem by listening to two channels such as a CD Player and Media PC with Spotify, Movies, etc.
 
 The irBlaster listens to the line-level audio over RCA cables. When it detects audio traffic on one of the channels, it sends a POWER ON Infrared (IR) code to the receiver, waits a few seconds for it to power up and then sends the IR code for the matching input. When there's no more audio traffic, it sends the POWER OFF IR code to the receiver.
+
+### [epdlib](https://github.com/txoof/epdlib)
+
+EpdLib is a library for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are defined as image, drawing or text blocks. Using epdlib blocks makes it trivial to develop for different disiplay resolutions as layouts are aware of thier resolution and scale the blocks dynamically to match the available area.
+
+| | |
+|-|-|
+|![500x500 Layout](https://github.com/txoof/epdlib/blob/master/docs/weather_5x5.png)<br/> 500x500 Layout| ![300x200 Layout](https://github.com/txoof/epdlib/blob/master/docs/weather_3x2.png) <br/> 300x200 Layout|
 
 ### 
 
