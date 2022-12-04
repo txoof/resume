@@ -1,6 +1,10 @@
 # Aaron Ciuffo - Resume
 
-Featured Git Repositories
+*Featured Professional and Personal Repositories*
+
+This selection of repositories contains some of my best work. There are great examples of complete projects, libraries, quality documentation, and problem solving.
+* [Work Related Projects](#work-related-projects): Software created to solve problems and patch together systems.
+* [Hobby Projects](#hobby-projects): Projects and software created for the fun and pleasure of creating new things!
 
 ## Work Related Projects
 
@@ -16,11 +20,11 @@ Audit ownership of all files in a Google Drive folder.
 
 GDrive Audit produces a google sheet that shows all the files within a folder and their owners. This tool can aid google super admins migrating folders into a Google Shared Drive. Run the audit tool to verify that all items contained within the shared folder are owned by the team and are suitable for migrating into a Google Shared Drive.
 
-Remember: When super-admins migrate a folder into a Shared Drive all ownership of the files is transferred to the organization. This is strictly a ONE WAY process and cannot be undone. If items that are meant for organization-wide consumption are migrated, the rest of the organization will lose access. Each item must be individually restored to the original owner. There is no undo.
+Remember: When super-admins migrate a folder into a Shared Drive, all ownership of the files is transferred to the organization. This is strictly a ONE WAY process and cannot be undone. If items that are meant for organization-wide consumption are migrated, the rest of the organization may lose access. Each item must be individually restored to the original owner. There is no undo. **Migrate with caution!**
 
 ### [insertFiles](https://github.com/txoof/insertFiles)
 
-Quikcly insert files iles by grade-level into Student Cumulative Folders on Google Drive. This can assist in adding standardized test scores, report cards or similar documents into Student Cumulative Folders.
+Quikcly insert files by grade-level into Student Cumulative Folders on Google Drive. This can assist in adding standardized test scores, report cards or similar documents into Student Cumulative Folders.
 
 ### [PortfolioCreator](https://github.com/txoof/portfolioCreator)
 
@@ -61,11 +65,9 @@ upper/lower case is ignored in all cases
 Student ID:123456; Student ID: 123456
 pyPDF_split pairs nicely with the insertFiles and create_folders scripts.
 
-
-
 ## Hobby Projects
 
- ### [PaperPi](https://github.com/txoof/PaperPi#paperpi-v3-)
+### [PaperPi](https://github.com/txoof/PaperPi#paperpi-v3-)
 
 PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud colors, no busy animations, just a lovely selection of the information you want without buzz and distraction. PaperPi rotates through your choice of plugin screens at the pace you choose.
 
@@ -79,7 +81,7 @@ It's pretty useless. It defies logic and your will. It's a machine that has exac
 
 ![Usless Machine Animation](https://github.com/txoof/Useless_Machine/blob/main/Useless_Machine.gif)
 
- ### [Audio Sensor irBlaster](https://github.com/txoof/audioSensor)
+### [Audio Sensor irBlaster](https://github.com/txoof/audioSensor)
 
  Let's face it: nobody knows how to operate your stereo receiver. Your kids, husband, sister-in-law all just want to start music playing and have sound come out of the speakers. It should just work*, not be an exercise in frustrated button mashing.
 
@@ -89,17 +91,29 @@ It's a mystery which remote turns on the stereo. It's an even bigger mystery whi
 
 The irBlaster listens to the line-level audio over RCA cables. When it detects audio traffic on one of the channels, it sends a POWER ON Infrared (IR) code to the receiver, waits a few seconds for it to power up and then sends the IR code for the matching input. When there's no more audio traffic, it sends the POWER OFF IR code to the receiver.
 
+### [Raspberry Pi Case](https://github.com/txoof/pi4_case)
+
+Customizable, laser cut case for Raspberry Pi 3 and 4 written in OpenSCAD. This case has room for a Pi and HiFi Berry DAC+ HAT. The case provides access to all Pi IO ports as well as the RCA connectors and GPIO pins on the HiFi Berry.
+
+![pi4 case](https://github.com/txoof/pi4_case/blob/master/pi4_case_back.png)
+
+### [Ansible](https://github.com/txoof/ansible)
+
+Ansible playbooks for configuring, deploying and managing Raspberry Pi devices. 
+
+These playbooks make it easy to spin up a Raspberry Pi from a scratch image and install relevant tools and setup development environments.
 ### [epdlib](https://github.com/txoof/epdlib)
 
-EpdLib is a library for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are defined as image, drawing or text blocks. Using epdlib blocks makes it trivial to develop for different disiplay resolutions as layouts are aware of thier resolution and scale the blocks dynamically to match the available area.
+EpdLib is a library for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are created by defining image, drawing or text blocks. By Using epdlib blocks makes it trivial to develop for different display resolutions as layouts are aware of their resolution and scale the blocks dynamically to match the available area at a given resolution.
+
+#### Example of scaled layout
 
 | | |
 |-|-|
 |![500x500 Layout](https://github.com/txoof/epdlib/blob/master/docs/weather_5x5.png)<br/> 500x500 Layout| ![300x200 Layout](https://github.com/txoof/epdlib/blob/master/docs/weather_3x2.png) <br/> 300x200 Layout|
 
-### 
+### [QueryLMS](https://github.com/txoof/querylms)
 
+Manage queries to an Logitech Media Server for a single player instance. A QueryLMS object can be used to query server or player status information and control an LMS player.
 
- 
- <img src=https://github.com/txoof/audioSensor/blob/master/irBlaster.jpg alt="Audio Sensor" width=400 /></br>Audio Sensor
-| NPR2Podcast | epdlib          | querylms     |
+This is based heavily on the [LMSQuery](https://github.com/roberteinhaus/lmsquery) library and reuses significant portions of the code.
