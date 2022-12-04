@@ -96,7 +96,7 @@ Customizable, laser cut case for Raspberry Pi 3 and 4 written in OpenSCAD. This 
 
 | | |
 |-|-|
-|![pi4 case render](https://github.com/txoof/pi4_case/blob/master/pi4_case_back.png)| ![pi4 case photo](https://github.com/txoof/pi4_case/blob/master/pi_4_back.jpg) |
+|<img src="https://github.com/txoof/pi4_case/blob/master/pi4_case_back.png" alt="pi4 case render" width="400"/>|<img src="https://github.com/txoof/pi4_case/blob/master/pi_4_back.jpg" alt="pi4 case photo" width="400"/>
 
 ### [Ansible](https://github.com/txoof/ansible)
 
