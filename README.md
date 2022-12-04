@@ -83,19 +83,20 @@ It's pretty useless. It defies logic and your will. It's a machine that has exac
 
 ### [Audio Sensor irBlaster](https://github.com/txoof/audioSensor)
 
- Let's face it: nobody knows how to operate your stereo receiver. Your kids, husband, sister-in-law all just want to start music playing and have sound come out of the speakers. It should just work*, not be an exercise in frustrated button mashing.
-
-![irBlaster Image](https://github.com/txoof/audioSensor/blob/master/irBlaster.jpg)
+ Let's face it: nobody knows how to operate your stereo receiver. Your kids, husband, sister-in-law all just want to start music playing and have sound come out of the speakers. It should *just work*, not be an exercise in frustrated button mashing.
 
 It's a mystery which remote turns on the stereo. It's an even bigger mystery which button switches it so Spotify or the CD player plays. The irBlaster helps solve this problem by listening to two channels such as a CD Player and Media PC with Spotify, Movies, etc.
 
-The irBlaster listens to the line-level audio over RCA cables. When it detects audio traffic on one of the channels, it sends a POWER ON Infrared (IR) code to the receiver, waits a few seconds for it to power up and then sends the IR code for the matching input. When there's no more audio traffic, it sends the POWER OFF IR code to the receiver.
+The irBlaster listens to the line-level audio over the RCA jacks. When audio traffic is detected on one of the channels, it sends a POWER ON Infrared (IR) code to the receiver. After a few seconds wait for the reciever to power up, the irBlaster then sends the IR code for the active input. When the audio traffic stops, the irBlasters sends the POWER OFF IR code to the receiver.
+![irBlaster Image](https://github.com/txoof/audioSensor/blob/master/irBlaster.jpg)
 
 ### [Raspberry Pi Case](https://github.com/txoof/pi4_case)
 
 Customizable, laser cut case for Raspberry Pi 3 and 4 written in OpenSCAD. This case has room for a Pi and HiFi Berry DAC+ HAT. The case provides access to all Pi IO ports as well as the RCA connectors and GPIO pins on the HiFi Berry.
 
-![pi4 case](https://github.com/txoof/pi4_case/blob/master/pi4_case_back.png)
+| | |
+|-|-|
+|![pi4 case render](https://github.com/txoof/pi4_case/blob/master/pi4_case_back.png)| ![pi4 case photo](https://github.com/txoof/pi4_case/blob/master/pi_4_back.jpg)|
 
 ### [Ansible](https://github.com/txoof/ansible)
 
