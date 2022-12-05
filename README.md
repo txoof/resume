@@ -81,9 +81,9 @@ PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud col
 
 ### [ItsyBitsy Useless Machine](https://github.com/txoof/Useless_Machine)
 
-***Absolutely Useless, Completely Necessary**
+***Absolutely Useless, Completely Necessary***
 
-It's pretty useless. It defies logic and your will. It's a machine that has exactly one purpose, to turn its self off. For something so useful, why is it so entertaining?
+It's pretty useless. It defies logic and your will. It's a machine that has exactly one purpose, to turn its self off. For something so absolutely useless, why is it so entertaining?
 
 ![Usless Machine Animation](https://github.com/txoof/Useless_Machine/blob/main/Useless_Machine.gif)
 
