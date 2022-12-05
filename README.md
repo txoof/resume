@@ -2,7 +2,7 @@
 
 *Featured Professional and Personal Repositories*
 
-This selection of repositories contains some of my best work. There are great examples of complete projects, libraries, quality documentation, and problem solving.
+This selection of repositories contains some of my best work. There are great examples of complete projects, libraries written to support projects, problem solving and great documentation.
 * [Work Related Projects](#work-related-projects): Software created to solve problems and patch together systems.
 * [Hobby Projects](#hobby-projects): Projects and software created for the fun and pleasure of creating new things!
 
