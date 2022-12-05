@@ -30,6 +30,12 @@ Quikcly insert files by grade-level into Student Cumulative Folders on Google Dr
 
 Create student cumulative folders on Google Drive using Google FileStream and student information exports from PowerSchool.
 
+### [calendar_csv](https://github.com/txoof/calendar_csv)
+
+Python script for generating files suitable for import into Google Calendar based on .csv schedule files for N-day rotating block schedules for schools. This script will produce one CSV for each unique event as well as a CSV for each day in the block rotation.
+
+If your schedule has "Block A, Block B, Block C, Lunch, Break 1, Break 2" seven CSV files will be produced, one for each event in the rotation: e.g. Block A, Block B, Block C, lunch, breaks. Each file produced will contain all of the calendar events for all days that match that event.
+
 ### [codesign](https://github.com/txoof/codesign)
 
 Python3 script for signing, packaging, notarizing and stapling Apple command line binaries using altool. This script only requires Python3 and uses only standard libraries.
