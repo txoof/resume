@@ -1,4 +1,4 @@
-# Aaron Ciuffo - Resume
+# Aaron Ciuffo - Project Summary
 
 *Featured Professional and Personal Repositories*
 
