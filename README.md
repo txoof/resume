@@ -1,4 +1,11 @@
-# Aaron Ciuffo - Project Summary
+# Aaron Ciuffo
+
+I'm a hacker, maker and mender of things. I love an interesting challenge and can't resist being [nerd sniped](https://xkcd.com/356/).
+
+ |![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=txoof&theme=gruvbox) |![Aaron's GitHub stats](https://github-readme-stats.vercel.app/api?username=txoof&theme=gruvbox&show_icons=true) |
+|-|-|                                                                
+
+# Project Summary
 
 *Featured Professional and Personal Repositories*
 
