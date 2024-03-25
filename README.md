@@ -3,8 +3,43 @@
 *Featured Professional and Personal Repositories*
 
 This selection of repositories contains some of my best work. There are great examples of complete projects, libraries written to support projects, problem solving and great documentation.
+
+* [My Favorites](#my-favorites): A selection of projects I'm particularly proud of
 * [Work Related Projects](#work-related-projects): Software created to solve problems and patch together systems.
 * [Hobby Projects](#hobby-projects): Projects and software created for the fun and pleasure of creating new things!
+
+## My Favorites
+
+### [PaperPi](https://github.com/txoof/PaperPi#paperpi-v3-)
+
+PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud colors, no busy animations, just a lovely selection of the information you want without buzz and distraction. PaperPi rotates through your choice of plugin screens at the pace you choose.
+
+![PaperPi Video](https://github.com/txoof/PaperPi/blob/main/documentation/images/paperpiV3.gif)
+
+### [epdlib](https://github.com/txoof/epdlib)
+
+EpdLib is a library hosted on [PyPi](https://pypi.org/project/epdlib/) for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are created by defining image, drawing or text blocks. By Using epdlib blocks makes it trivial to develop for different display resolutions as layouts are aware of their resolution and scale the blocks dynamically to match the available area at a given resolution.
+
+### [PowerSchool PowerQuery](https://github.com/txoof/PowerQuery)
+
+PowerSchool Student Information System (SIS) PowerQuery PL/SQL plugins for integrating course, teacher, student and parent data into D2L/Brightspace Learning Management System (LMS). There is no off-the-shelf integration between these products. A customized solution is required to maintain accurate synchronization of these two systems. This synchronization occurs regularly and ensures that staff, parents and students are connected to the appropriate classes and any changes to student schedules such as a schedule or class change are managed.
+
+The queries are written in a combination of Oracle SQL and managed through XML documents. Once packaged and installed on the SIS server, the plugin can be accessed through automation processes and set to synchronize comma separated value (CSV) data to the D2l/Brightspace instance in the cloud.
+
+### [codesign](https://github.com/txoof/codesign)
+
+Python3 script for signing, packaging, notarizing and stapling Apple command line binaries using altool. This script only requires Python3 and uses only standard libraries.
+
+Apple's documentation for this process is ABSOLUTELY terrible for tools created outside of their approved workflows. For a step-by-step guide to do this manually see [Signing_and_Notarizing_HOWTO](https://github.com/txoof/codesign/blob/main/Signing_and_Notarizing_HOWTO.md)
+
+### [ItsyBitsy Useless Machine](https://github.com/txoof/Useless_Machine)
+
+***Absolutely Useless, Completely Necessary***
+
+It's pretty useless. It defies logic and your will. It's a machine that has exactly one purpose, to turn its self off. For something so absolutely useless, why is it so entertaining?
+
+![Usless Machine Animation](https://github.com/txoof/Useless_Machine/blob/main/Useless_Machine.gif)
+
 
 ## Work Related Projects
 
@@ -42,7 +77,7 @@ Python3 script for signing, packaging, notarizing and stapling Apple command lin
 
 This script is specifically targeted at codesigning, notarizing, creating .pkg files and stapling the notarization onto commandline tools written and compiled outside of Apple Xcode. This was created specifically for notarizing and signing python tools created with PyInstaller.
 
-As of MacOS Catalina, all distributed binaries must be signed and notarized using an apple developer account. This account costs $99 per year. .
+As of MacOS Catalina, all distributed binaries must be signed and notarized using an apple developer account. This account costs $99 per year.
 
 Apple's documentation for this process is ABSOLUTELY terrible. For a guide to doing this manually see [Signing_and_Notarizing_HOWTO](https://github.com/txoof/codesign/blob/main/Signing_and_Notarizing_HOWTO.md)
 
@@ -109,9 +144,10 @@ Customizable, laser cut case for Raspberry Pi 3 and 4 written in OpenSCAD. This 
 Ansible playbooks for configuring, deploying and managing Raspberry Pi devices. 
 
 These playbooks make it easy to spin up a Raspberry Pi from a scratch image and install relevant tools and setup development environments.
+
 ### [epdlib](https://github.com/txoof/epdlib)
 
-EpdLib is a library for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are created by defining image, drawing or text blocks. By Using epdlib blocks makes it trivial to develop for different display resolutions as layouts are aware of their resolution and scale the blocks dynamically to match the available area at a given resolution.
+EpdLib is a library hosted on [PyPi](https://pypi.org/project/epdlib/) for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are created by defining image, drawing or text blocks. By Using epdlib blocks makes it trivial to develop for different display resolutions as layouts are aware of their resolution and scale the blocks dynamically to match the available area at a given resolution.
 
 #### Example of scaled layout
 
