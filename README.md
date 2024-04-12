@@ -27,7 +27,7 @@ PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud col
 
 EpdLib is a library hosted on [PyPi](https://pypi.org/project/epdlib/) for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are created by defining image, drawing or text blocks. By Using epdlib blocks makes it trivial to develop for different display resolutions as layouts are aware of their resolution and scale the blocks dynamically to match the available area at a given resolution.
 
-### [PowerSchool PowerQuery](https://github.com/txoof/PowerQuery)
+### [psd2l-plugin](https://github.com/txoof/PowerQuery)
 
 PowerSchool Student Information System (SIS) PowerQuery PL/SQL plugins for integrating course, teacher, student and parent data into D2L/Brightspace Learning Management System (LMS). There is no off-the-shelf integration between these products. A customized solution is required to maintain accurate synchronization of these two systems. This synchronization occurs regularly and ensures that staff, parents and students are connected to the appropriate classes and any changes to student schedules such as a schedule or class change are managed.
 
