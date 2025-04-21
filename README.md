@@ -2,8 +2,9 @@
 
 I'm a maker, mender, and hacker of things. I love an interesting challenge or the opportunity to hack something into more than it was intended. I most definitely can't resist being [nerd sniped](https://xkcd.com/356/).
 
- |![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=txoof&theme=gruvbox) |![Aaron's GitHub stats](https://github-readme-stats.vercel.app/api?username=txoof&theme=gruvbox&show_icons=true) |
-|-|-|                                                                
+ | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=txoof&theme=gruvbox) | ![Aaron's GitHub stats](https://github-readme-stats.vercel.app/api?username=txoof&theme=gruvbox&show_icons=true) |
+ | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+ |                                                                                                  |                                                                                                                  |
 
 # Project Summary
 
@@ -38,6 +39,12 @@ The queries are written in a combination of Oracle SQL and managed through XML d
 Python3 script for signing, packaging, notarizing and stapling Apple command line binaries using altool. This script only requires Python3 and uses only standard libraries.
 
 Apple's documentation for this process is ABSOLUTELY terrible for tools created outside of their approved workflows. For a step-by-step guide to do this manually see [Signing_and_Notarizing_HOWTO](https://github.com/txoof/codesign/blob/main/Signing_and_Notarizing_HOWTO.md)
+
+### [Finger Joint Box](https://github.com/txoof/fingerjoint)
+
+This OpenSCAD library creates customizable boxes using comb joints to assemble the faces. This project is used heavily in the Useless Machine project below.
+
+![Finger Joint Box](https://github.com/txoof/fingerjoint/blob/master/assets/fingerjoint.gif)
 
 ### [ItsyBitsy Useless Machine](https://github.com/txoof/Useless_Machine)
 
