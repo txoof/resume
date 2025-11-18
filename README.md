@@ -12,48 +12,22 @@ I'm a maker, mender, and hacker of things. I love an interesting challenge or th
 
 This selection of repositories contains some of my best work. There are great examples of complete projects, libraries written to support projects, problem solving and great documentation.
 
-* [My Favorites](#my-favorites): A selection of projects I'm particularly proud of
-* [Work Related Projects](#work-related-projects): Software created to solve problems and patch together systems.
-* [Hobby Projects](#hobby-projects): Projects and software created for the fun and pleasure of creating new things!
+- [Aaron Ciuffo](#aaron-ciuffo)
+- [Project Summary](#project-summary)
+  - [Machine Learning Projects](#machine-learning-projects)
+  - [Work Related Projects](#work-related-projects)
+  - [My Favorites](#my-favorites)
+  - [Hobby Projects](#hobby-projects)
 
-## My Favorites
+## Machine Learning Projects
 
-### [PaperPi](https://github.com/txoof/PaperPi#paperpi-v3-)
+### [LLM Story Evaluation](https://github.com/txoof/Story_Evaluation#)
 
-PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud colors, no busy animations, just a lovely selection of the information you want without buzz and distraction. PaperPi rotates through your choice of plugin screens at the pace you choose.
+A comparative analysis of three prompt engineering strategies for evaluating the quality of detective fiction. Using a corpus of 24 detective stories spanning reasonable, mediocre and degraded text, I test weather large language models can discriminate between quality levels.
 
-![PaperPi Video](https://github.com/txoof/PaperPi/blob/main/documentation/images/paperpiV3.gif)
+### [Graph 2 Table](https://github.com/txoof/graph2table#)
 
-### [epdlib](https://github.com/txoof/epdlib)
-
-EpdLib is a library hosted on [PyPi](https://pypi.org/project/epdlib/) for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are created by defining image, drawing or text blocks. By Using epdlib blocks makes it trivial to develop for different display resolutions as layouts are aware of their resolution and scale the blocks dynamically to match the available area at a given resolution.
-
-### [psd2l-plugin](https://github.com/txoof/PowerQuery)
-
-PowerSchool Student Information System (SIS) PowerQuery PL/SQL plugins for integrating course, teacher, student and parent data into D2L/Brightspace Learning Management System (LMS). There is no off-the-shelf integration between these products. A customized solution is required to maintain accurate synchronization of these two systems. This synchronization occurs regularly and ensures that staff, parents and students are connected to the appropriate classes and any changes to student schedules such as a schedule or class change are managed.
-
-The queries are written in a combination of Oracle SQL and managed through XML documents. Once packaged and installed on the SIS server, the plugin can be accessed through automation processes and set to synchronize comma separated value (CSV) data to the D2l/Brightspace instance in the cloud.
-
-### [codesign](https://github.com/txoof/codesign)
-
-Python3 script for signing, packaging, notarizing and stapling Apple command line binaries using altool. This script only requires Python3 and uses only standard libraries.
-
-Apple's documentation for this process is ABSOLUTELY terrible for tools created outside of their approved workflows. For a step-by-step guide to do this manually see [Signing_and_Notarizing_HOWTO](https://github.com/txoof/codesign/blob/main/Signing_and_Notarizing_HOWTO.md)
-
-### [Finger Joint Box](https://github.com/txoof/fingerjoint)
-
-This OpenSCAD library creates customizable boxes using comb joints to assemble the faces. This project is used heavily in the Useless Machine project below.
-
-![Finger Joint Box](https://github.com/txoof/fingerjoint/blob/master/assets/fingerjoint.gif)
-
-### [ItsyBitsy Useless Machine](https://github.com/txoof/Useless_Machine)
-
-***Absolutely Useless, Completely Necessary***
-
-It's pretty useless. It defies logic and your will. It's a machine that has exactly one purpose, to turn its self off. For something so absolutely useless, why is it so entertaining?
-
-![Usless Machine Animation](https://github.com/txoof/Useless_Machine/blob/main/Useless_Machine.gif)
-
+Graph2Table is a machine learning project that automatically classifies chart types and extracts tabular data from images of graphs and charts. The system uses computer vision and OCR techniques to convert visual data representations back into structured, machine-readable formats.
 
 ## Work Related Projects
 
@@ -119,6 +93,44 @@ StudentID:123456; StudentId:123456; STUDENTID:123456; studentid:123456
 upper/lower case is ignored in all cases
 Student ID:123456; Student ID: 123456
 pyPDF_split pairs nicely with the insertFiles and create_folders scripts.
+
+## My Favorites
+
+### [PaperPi](https://github.com/txoof/PaperPi#paperpi-v3-)
+
+PaperPi is a lovely, quiet, *slow internet* e-Paper radio. There are no loud colors, no busy animations, just a lovely selection of the information you want without buzz and distraction. PaperPi rotates through your choice of plugin screens at the pace you choose.
+
+![PaperPi Video](https://github.com/txoof/PaperPi/blob/main/documentation/images/paperpiV3.gif)
+
+### [epdlib](https://github.com/txoof/epdlib)
+
+EpdLib is a library hosted on [PyPi](https://pypi.org/project/epdlib/) for creating dynamically scaled screen layouts for frame-buffered devices such as e-paper/e-ink displays. Complex layouts are created by defining image, drawing or text blocks. By Using epdlib blocks makes it trivial to develop for different display resolutions as layouts are aware of their resolution and scale the blocks dynamically to match the available area at a given resolution.
+
+### [psd2l-plugin](https://github.com/txoof/PowerQuery)
+
+PowerSchool Student Information System (SIS) PowerQuery PL/SQL plugins for integrating course, teacher, student and parent data into D2L/Brightspace Learning Management System (LMS). There is no off-the-shelf integration between these products. A customized solution is required to maintain accurate synchronization of these two systems. This synchronization occurs regularly and ensures that staff, parents and students are connected to the appropriate classes and any changes to student schedules such as a schedule or class change are managed.
+
+The queries are written in a combination of Oracle SQL and managed through XML documents. Once packaged and installed on the SIS server, the plugin can be accessed through automation processes and set to synchronize comma separated value (CSV) data to the D2l/Brightspace instance in the cloud.
+
+### [codesign](https://github.com/txoof/codesign)
+
+Python3 script for signing, packaging, notarizing and stapling Apple command line binaries using altool. This script only requires Python3 and uses only standard libraries.
+
+Apple's documentation for this process is ABSOLUTELY terrible for tools created outside of their approved workflows. For a step-by-step guide to do this manually see [Signing_and_Notarizing_HOWTO](https://github.com/txoof/codesign/blob/main/Signing_and_Notarizing_HOWTO.md)
+
+### [Finger Joint Box](https://github.com/txoof/fingerjoint)
+
+This OpenSCAD library creates customizable boxes using comb joints to assemble the faces. This project is used heavily in the Useless Machine project below.
+
+![Finger Joint Box](https://github.com/txoof/fingerjoint/blob/master/assets/fingerjoint.gif)
+
+### [ItsyBitsy Useless Machine](https://github.com/txoof/Useless_Machine)
+
+***Absolutely Useless, Completely Necessary***
+
+It's pretty useless. It defies logic and your will. It's a machine that has exactly one purpose, to turn its self off. For something so absolutely useless, why is it so entertaining?
+
+![Usless Machine Animation](https://github.com/txoof/Useless_Machine/blob/main/Useless_Machine.gif)
 
 ## Hobby Projects
 
