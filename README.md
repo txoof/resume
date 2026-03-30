@@ -12,7 +12,6 @@ I'm a maker, mender, and hacker of things. I love an interesting challenge or th
 
 This selection of repositories contains some of my best work. There are great examples of complete projects, libraries written to support projects, problem solving and great documentation.
 
-- [Aaron Ciuffo](#aaron-ciuffo)
 - [Project Summary](#project-summary)
   - [Machine Learning Projects](#machine-learning-projects)
   - [Work Related Projects](#work-related-projects)
