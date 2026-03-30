@@ -21,6 +21,12 @@ This selection of repositories contains some of my best work. There are great ex
 
 ## Machine Learning Projects
 
+### [Sign Language Finger Spelling](https://github.com/txoof/fingerspell)
+
+This project offers Nederlanse Gebaren Taal Vingeralfabet (NGT Finger Alphabet) training for beginners. The model signs are based on the examples provided by Wapperkids YouTube Video. It can also be trained to work with your local language!
+
+The AI models used in this project benefit from learning from additional examples. Adding more examples of hand positions can help the models become more accurate. It is also possible to train an entirely new model for regional variations or entirely new alphabets.
+
 ### [LLM Story Evaluation](https://github.com/txoof/Story_Evaluation#)
 
 A comparative analysis of three prompt engineering strategies for evaluating the quality of detective fiction. Using a corpus of 24 detective stories spanning reasonable, mediocre and degraded text, I test weather large language models can discriminate between quality levels.
