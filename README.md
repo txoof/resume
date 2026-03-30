@@ -1,10 +1,6 @@
 # Aaron Ciuffo
 
-I'm a maker, mender, and hacker of things. I love an interesting challenge or the opportunity to hack something into more than it was intended. I most definitely can't resist being [nerd sniped](https://xkcd.com/356/).
-
- | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=txoof&theme=gruvbox) | ![Aaron's GitHub stats](https://github-readme-stats.vercel.app/api?username=txoof&theme=gruvbox&show_icons=true) |
- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
- |                                                                                                  |                                                                                                                  |
+I'm a maker, mender, and hacker of things. I love an interesting challenge or the opportunity to hack something into more than it was intended. I most definitely can't resist being [nerd sniped](https://xkcd.com/                                                        |
 
 # Project Summary
 
@@ -12,11 +8,10 @@ I'm a maker, mender, and hacker of things. I love an interesting challenge or th
 
 This selection of repositories contains some of my best work. There are great examples of complete projects, libraries written to support projects, problem solving and great documentation.
 
-- [Project Summary](#project-summary)
-  - [Machine Learning Projects](#machine-learning-projects)
-  - [Work Related Projects](#work-related-projects)
-  - [My Favorites](#my-favorites)
-  - [Hobby Projects](#hobby-projects)
+- [Machine Learning Projects](#machine-learning-projects)
+- [Work Related Projects](#work-related-projects)
+- [My Favorites](#my-favorites)
+- [Hobby Projects](#hobby-projects)
 
 ## Machine Learning Projects
 
