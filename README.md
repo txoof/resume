@@ -1,6 +1,6 @@
 # Aaron Ciuffo
 
-I'm a maker, mender, and hacker of things. I love an interesting challenge or the opportunity to hack something into more than it was intended. I most definitely can't resist being [nerd sniped](https://xkcd.com/                                                        |
+I'm a maker, mender, and hacker of things. I love an interesting challenge or the opportunity to hack something into more than it was intended. I most definitely can't resist being [nerd sniped](https://xkcd.com/).
 
 # Project Summary
 
